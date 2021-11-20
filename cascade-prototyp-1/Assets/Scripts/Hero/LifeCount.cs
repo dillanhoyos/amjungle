@@ -11,6 +11,8 @@ public class LifeCount : MonoBehaviour
 
     public void LoseLife()
     {
+
+      //  AkSoundEngine.PostEvent("Hurt", gameObject);
         livesRemaining--;// Decrease the value of livesRemaining
         anim.Play("frog_hit");
         lives[livesRemaining].enabled = false; // Hide one of the life images
@@ -22,8 +24,10 @@ public class LifeCount : MonoBehaviour
 
     public void BonusLife()
     {
+       // AkSoundEngine.PostEvent("Bonus_Life", gameObject);
         if (livesRemaining < 4)
         {
+            
             livesRemaining++;
             lives[livesRemaining].enabled = true;
         }

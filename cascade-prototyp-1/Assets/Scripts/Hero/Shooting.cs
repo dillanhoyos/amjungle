@@ -12,6 +12,7 @@ public class Shooting : MonoBehaviour
         {
             if (FrCounter.Fruit > 0)
             {
+                 //   AkSoundEngine.PostEvent("Shoot", gameObject);
                 FrCounter.Fruit -= 1;
                 Instantiate(Bullet, shotpos.transform.position, transform.rotation);
             }

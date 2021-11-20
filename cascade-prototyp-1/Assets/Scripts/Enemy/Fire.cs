@@ -9,6 +9,9 @@ public class Fire : MonoBehaviour
         GetComponent<BoxCollider2D>().isTrigger = true;
     }
 
+private void Start(){
+             //   AkSoundEngine.PostEvent("Fire", gameObject);
+}
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.tag == "Player")

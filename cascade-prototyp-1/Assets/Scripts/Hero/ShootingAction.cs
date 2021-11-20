@@ -9,6 +9,7 @@ public class ShootingAction : MonoBehaviour
         if (health <= 0)
         {
             Destroy(gameObject);
+        //  AkSoundEngine.PostEvent("EnemyDeath", gameObject);
         }
     }
 

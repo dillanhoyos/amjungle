@@ -19,6 +19,9 @@ public class EnemyAI : MonoBehaviour
         Init();
     }
 
+    private void Start(){
+        //   AkSoundEngine.PostEvent("Enemy_ambiance", gameObject);
+    }
     void Init()
     {
         //Make box collider trigger

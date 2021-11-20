@@ -10,6 +10,8 @@ public class BirdController : MonoBehaviour
         if (fly)
         {
             MoveToNextPoint();
+             //   AkSoundEngine.PostEvent("Birdcall", gameObject);
+            
         }
     }
 
@@ -18,8 +20,12 @@ public class BirdController : MonoBehaviour
     public Transform platform;
     int goalPoint = 0;
     public float moveSpeed = 2;
+
+
+
     public void MoveToNextPoint()
     {
+       
         fly = true;
         //change the position of the platform (move towards the goal point)
         platform.position = Vector2.MoveTowards(platform.position, points[goalPoint].position, Time.deltaTime * moveSpeed);

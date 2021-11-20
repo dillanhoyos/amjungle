@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class FogController : MonoBehaviour
 {
+
+    private void Start(){
+    //   AkSoundEngine.PostEvent("Poison", gameObject);
+    }
     private void Reset()
     {
         GetComponent<BoxCollider2D>().isTrigger = true;

@@ -75,6 +75,15 @@ public class HeroMove : MonoBehaviour
     public float jumpControlTime = 0.7f;
     public float doubleJumpVelocity = 10f;
 
+    void WalkSound(){
+
+       // AkSoundEngine.PostEvent("FootstepsFrog", gameObject);
+
+    }
+    void AirFlip(){
+        //AkSoundEngine.PostEvent("Flip", gameObject);
+    }
+
     void Jump() //Controllable hero jump with the possibility of a double jump
     {
         if (Input.GetKey(KeyCode.Space))
@@ -84,6 +93,8 @@ public class HeroMove : MonoBehaviour
                 anim.StopPlayback();
                 anim.Play("frog_jump");
                 jumpControl = true;
+
+                 //   AkSoundEngine.PostEvent("Jump", gameObject);
             }
         }
         else { jumpControl = false; }
@@ -151,6 +162,7 @@ public class HeroMove : MonoBehaviour
     }
     void LadderUpDown()
     {
+        //AkSoundEngine.PostEvent("VineClimb", gameObject);
         moveVector.y = Input.GetAxisRaw("Vertical");
     }
     //--------------------------------------------------
