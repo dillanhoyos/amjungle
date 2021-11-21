@@ -44,7 +44,7 @@ public class LifeCount : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Return))
         {
             LoseLife();
-            AkSoundEngine.PostEvent("StopMusic", gameObject);
+            
         }
     }
 }

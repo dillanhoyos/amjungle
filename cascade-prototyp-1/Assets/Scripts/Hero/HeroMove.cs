@@ -193,7 +193,7 @@ public class HeroMove : MonoBehaviour
 
     public void Die()
     {
-        AkSoundEngine.PostEvent("StopMusic", gameObject);
+      
 
         isDead = true;
         //FindObjectOfType<LevelManager>().RestartScene();

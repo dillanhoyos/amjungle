@@ -1,0 +1,62 @@
+Event	ID	Name			Wwise Object Path	Notes
+	278415288	FootstepsFrog			\Default Work Unit\FootstepsFrog	
+	352544314	BearcClosed			\Default Work Unit\BearcClosed	
+	357926156	BirdCall			\Default Work Unit\BirdCall	
+	417627684	PlayMusic			\Default Work Unit\PlayMusic	
+	585465712	Ennemy_ambiance			\Default Work Unit\Ennemy_ambiance	
+	837367885	FruitPickup			\Default Work Unit\FruitPickup	
+	1413156513	Poison			\Default Work Unit\Poison	
+	1787186961	Maskattack			\Default Work Unit\Maskattack	
+	1858736063	Bonus_Life			\Default Work Unit\Bonus_Life	
+	1917263390	StopMusic			\Default Work Unit\StopMusic	
+	1944357351	Cocrodile			\Default Work Unit\Cocrodile	
+	2144309188	PlaySound			\Default Work Unit\PlaySound	
+	2147994845	quitsound			\Default Work Unit\quitsound	
+	2209376599	treeambient			\Default Work Unit\treeambient	
+	2480588368	VineClimb			\Default Work Unit\VineClimb	
+	2678880713	Fire			\Default Work Unit\Fire	
+	2792801369	Mask			\Default Work Unit\Mask	
+	2931383628	flap			\Default Work Unit\flap	
+	2970320611	Bearopen			\Default Work Unit\Bearopen	
+	3038207054	Shoot			\Default Work Unit\Shoot	
+	3065604516	Flip			\Default Work Unit\Flip	
+	3193947170	Hurt			\Default Work Unit\Hurt	
+	3249137159	EnemyDeath			\Default Work Unit\EnemyDeath	
+	3416216822	Waterambient			\Default Work Unit\Waterambient	
+	3833651337	Jump			\Default Work Unit\Jump	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	26338516	Shoot	Y:\Documents\WwiseProjects\Amazon Jungle\.cache\Mac\SFX\Cartoon_Boomerang_Sound_Effect_B7C55BF8.wem		\Actor-Mixer Hierarchy\Factory Motion\Frog Animator\Shoot		134776
+	80977365	Wind	Y:\Documents\WwiseProjects\Amazon Jungle\.cache\Mac\SFX\BRS_Wind_Heavy_Dry_Leaves_2_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Motion\Ambiances\Trees\Wind		25057344
+	89303480	Bird Flaps_02	Y:\Documents\WwiseProjects\Amazon Jungle\.cache\Mac\SFX\BRS_Bird_Wing_Flaps_Glvs1_Stdy_28695CFC.wem		\Actor-Mixer Hierarchy\Factory Motion\Cocrodile and Bird\Flaps\Bird Flaps_02		31262
+	114831988	Death Alarm	Y:\Documents\WwiseProjects\Amazon Jungle\.cache\Mac\SFX\SPLC-0869_FX_Oneshot_Sirens_Alarms_Electronic_21DFDC71.wem		\Actor-Mixer Hierarchy\Factory Motion\Poison Mask Part\Death Alarm		345352
+	158968189	Cough	Y:\Documents\WwiseProjects\Amazon Jungle\.cache\Mac\SFX\SPLC-0784_FX_Oneshot_Voices_Cough_Lady_B3B7F4BD.wem		\Actor-Mixer Hierarchy\Factory Motion\Poison Mask Part\Cough		201292
+	222380982	bird2	Y:\Documents\WwiseProjects\Amazon Jungle\.cache\Mac\SFX\Parrot_Sound_1_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Motion\Cocrodile and Bird\BirdCal\bird2		352944
+	238400775	Bonus Life	Y:\Documents\WwiseProjects\Amazon Jungle\.cache\Mac\SFX\CB_123_synth_phrase_level_up_D_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Motion\Frog Animator\Bonus Life		169904
+	239897482	CBMIX_birds_loop_outdoor_nature_140	Y:\Documents\WwiseProjects\Amazon Jungle\.cache\Mac\SFX\CBMIX_birds_loop_outdoor_nature_140_D79FB2B7.wem		\Actor-Mixer Hierarchy\Factory Motion\Ambiances\Trees\CBMIX_birds_loop_outdoor_nature_140		4838464
+	270200578	ESM_Kids_Game_Footsteps_Jogging_Child_Dirt_Loop_Dry_Foley	Y:\Documents\WwiseProjects\Amazon Jungle\.cache\Mac\SFX\ESM_Kids_Game_Footsteps_Jogging_Child_Dirt_Loop_Dry_Foley_9AC9F209.wem		\Actor-Mixer Hierarchy\Factory Motion\Frog Animator\Footsteps\ESM_Kids_Game_Footsteps_Jogging_Child_Dirt_Loop_Dry_Foley		31630
+	272629529	Flip Sound	Y:\Documents\WwiseProjects\Amazon Jungle\.cache\Mac\SFX\FF_ES_foley_arrow_swoosh_white_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Motion\Frog Animator\Flip Sound		66948
+	276194085	Vine Climb	Y:\Documents\WwiseProjects\Amazon Jungle\.cache\Mac\SFX\FEAK_Paper_20_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Motion\Ambiances\Trees\Vine Climb		83108
+	338787817	Quit	Y:\Documents\WwiseProjects\Amazon Jungle\.cache\Mac\SFX\ESM_One_Shot_FX_Notification_UI_Various_24_Short_Alert_Menu_System_Cm_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Quit		144176
+	364599170	Waters	Y:\Documents\WwiseProjects\Amazon Jungle\.cache\Mac\SFX\SPLC-1243_FX_Oneshot_Water_Ambience_Crickets_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Motion\Ambiances\Water\Waters		8640576
+	417024845	PLay	Y:\Documents\WwiseProjects\Amazon Jungle\.cache\Mac\SFX\ESM_One_Shot_FX_Interface_Button_Clean_11_Short_Confirmed_Menu_Pressed_C#_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\PLay		104620
+	459063740	Fire	Y:\Documents\WwiseProjects\Amazon Jungle\.cache\Mac\SFX\Standalone-Music_-_Destiny_Fire_4_C5579977.wem		\Actor-Mixer Hierarchy\Factory Motion\Fire Sounds\Fire		220564
+	488086403	POsion Loop	Y:\Documents\WwiseProjects\Amazon Jungle\.cache\Mac\SFX\White_Noise_D79FB2B7.wem		\Actor-Mixer Hierarchy\Factory Motion\Poison Mask Part\POsion Loop		2065316
+	499475485	Bird Flaps	Y:\Documents\WwiseProjects\Amazon Jungle\.cache\Mac\SFX\BRS_Bird_Wing_Flaps_Glvs1_Stdy_8F018AD0.wem		\Actor-Mixer Hierarchy\Factory Motion\Cocrodile and Bird\Flaps\Bird Flaps		28862
+	535843694	ESM_Fantasy_Game_Footstep_Grass_Light_G	Y:\Documents\WwiseProjects\Amazon Jungle\.cache\Mac\SFX\ESM_Fantasy_Game_Footstep_Grass_Light_G_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Motion\Frog Animator\Footsteps\ESM_Fantasy_Game_Footstep_Grass_Light_G		151700
+	582395854	Jump	Y:\Documents\WwiseProjects\Amazon Jungle\.cache\Mac\SFX\BounceTympani_BW.59868_82460F0A.wem		\Actor-Mixer Hierarchy\Factory Motion\Frog Animator\Jump		163904
+	586083226	Bird Flaps_01	Y:\Documents\WwiseProjects\Amazon Jungle\.cache\Mac\SFX\BRS_Bird_Wing_Flaps_Glvs1_Stdy_40908FD0.wem		\Actor-Mixer Hierarchy\Factory Motion\Cocrodile and Bird\Flaps\Bird Flaps_01		24062
+	621154646	Bird Flaps_03	Y:\Documents\WwiseProjects\Amazon Jungle\.cache\Mac\SFX\BRS_Bird_Wing_Flaps_Glvs1_Stdy_D00EC329.wem		\Actor-Mixer Hierarchy\Factory Motion\Cocrodile and Bird\Flaps\Bird Flaps_03		21662
+	661963489	Mask	Y:\Documents\WwiseProjects\Amazon Jungle\.cache\Mac\SFX\SPLC-3565_FX_Oneshot_Paper_Crush_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Motion\Poison Mask Part\Mask		137280
+	663854944	Monkeys	Y:\Documents\WwiseProjects\Amazon Jungle\.cache\Mac\SFX\SPLC-5186_FX_Oneshot_Animal_Monkeys_Hoots_Whoops_D79FB2B7.wem		\Actor-Mixer Hierarchy\Factory Motion\Ambiances\Trees\Monkeys		1259940
+	681675326	ESM_Kids_Game_Footsteps_Jogging_Child_Dirt_Loop_Dry_Foley_02	Y:\Documents\WwiseProjects\Amazon Jungle\.cache\Mac\SFX\ESM_Kids_Game_Footsteps_Jogging_Child_Dirt_Loop_Dry_Foley_2FA46850.wem		\Actor-Mixer Hierarchy\Factory Motion\Frog Animator\Footsteps\ESM_Kids_Game_Footsteps_Jogging_Child_Dirt_Loop_Dry_Foley_02		37476
+	700297907	Music	Y:\Documents\WwiseProjects\Amazon Jungle\.cache\Mac\SFX\Jungle_Theme_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Playlist Container\Music\Music		7760908
+	756201067	Enemy ambiance	Y:\Documents\WwiseProjects\Amazon Jungle\.cache\Mac\SFX\BRS_Creature_BF_Speak_Groan_Med_4_D79FB2B7.wem		\Actor-Mixer Hierarchy\Factory Motion\Enemy Animator\Enemy ambiance		145472
+	804682210	fr	Y:\Documents\WwiseProjects\Amazon Jungle\.cache\Mac\SFX\BRS_Fire_Fuse_Burning_Wic_D79FB2B7.wem		\Actor-Mixer Hierarchy\Factory Motion\Fire Sounds\fr		390208
+	842975765	Enemy Death	Y:\Documents\WwiseProjects\Amazon Jungle\.cache\Mac\SFX\BRS_Creature_BF_Strongman_Fight_Grunts_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Motion\Enemy Animator\Enemy Death		312384
+	946867376	ESM_Kids_Game_Footsteps_Jogging_Child_Dirt_Loop_Dry_Foley_01	Y:\Documents\WwiseProjects\Amazon Jungle\.cache\Mac\SFX\ESM_Kids_Game_Footsteps_Jogging_Child_Dirt_Loop_Dry_Foley_28D586EC.wem		\Actor-Mixer Hierarchy\Factory Motion\Frog Animator\Footsteps\ESM_Kids_Game_Footsteps_Jogging_Child_Dirt_Loop_Dry_Foley_01		21586
+	954950176	Frog Hurt	Y:\Documents\WwiseProjects\Amazon Jungle\.cache\Mac\SFX\BRS_Creature_BF_Troll_Gasps_Grunts_Pain_7B1590B0.wem		\Actor-Mixer Hierarchy\Factory Motion\Frog Animator\Frog Hurt		50466
+	983526530	ChompSound	Y:\Documents\WwiseProjects\Amazon Jungle\.cache\Mac\SFX\ESM_Chew_Food_7_Organic_Element_Sound_Source_Kitchen_Dry_Crackle_Crunch_Food_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Motion\Pickup Foods\ChompSound		224320
+	994463620	Trap Open	Y:\Documents\WwiseProjects\Amazon Jungle\.cache\Mac\SFX\Bear_Trap_0434CBA6.wem		\Actor-Mixer Hierarchy\Factory Motion\Traps\Trap Open		62624
+	1054023514	Fir	Y:\Documents\WwiseProjects\Amazon Jungle\.cache\Mac\SFX\PFS2_Fire_Fireball (1)_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Motion\Fire Sounds\Fir		709696
+

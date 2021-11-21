@@ -19,7 +19,7 @@ public class FogController : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-             AkSoundEngine.PostEvent("Maskattack", gameObject);
+             
             Wait();
             if (FindObjectOfType<MaskController>().WasFirstTimeReleased == false)
             {

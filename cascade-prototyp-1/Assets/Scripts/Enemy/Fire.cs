@@ -16,7 +16,7 @@ private void Start(){
     {
         if (collision.tag == "Player")
         {
-            AkSoundEngine.PostEvent("Fireball", gameObject);
+           
           FindObjectOfType<LifeCount>().LoseLife();
         }
     }

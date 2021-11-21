@@ -19172,7 +19172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06d78b982cb5942f697e84052bd8caa6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerList: f7e1664c
+  triggerList: ae8d9d44
   useOtherObject: 0
   data:
     idInternal: 0
@@ -19235,6 +19235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c63329ee06d7d4e1d9bde2ea746ee6d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  On: 0
 --- !u!1 &1959720352
 GameObject:
   m_ObjectHideFlags: 0

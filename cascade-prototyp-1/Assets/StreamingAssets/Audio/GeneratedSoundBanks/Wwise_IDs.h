@@ -21,7 +21,6 @@ namespace AK
         static const AkUniqueID ENEMYDEATH = 3249137159U;
         static const AkUniqueID ENNEMY_AMBIANCE = 585465712U;
         static const AkUniqueID FIRE = 2678880713U;
-        static const AkUniqueID FIREBALL = 3841200954U;
         static const AkUniqueID FLAP = 2931383628U;
         static const AkUniqueID FLIP = 3065604516U;
         static const AkUniqueID FOOTSTEPSFROG = 278415288U;
