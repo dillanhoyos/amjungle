@@ -94,8 +94,19 @@ public class HeroMove : MonoBehaviour
             {
                 anim.StopPlayback();
                 anim.Play("frog_jump");
+
+                //sound
+                if(jumpControl == false)
+                {
+
+                    AkSoundEngine.PostEvent("Jump", gameObject);
+
+                }
+                
                 jumpControl = true;
-                AkSoundEngine.PostEvent("Jump", gameObject);
+
+
+                
 
                    
             }
@@ -175,9 +186,9 @@ public class HeroMove : MonoBehaviour
         AkSoundEngine.PostEvent("VineClimb", gameObject);
     }
 
-    void hurtsound(){
-        AkSoundEngine.PostEvent("Hurt", gameObject);
-    }
+    // void hurtsound(){
+    //     AkSoundEngine.PostEvent("Hurt", gameObject);
+    // }
     public bool isDead = false;
 
     public void Die()
