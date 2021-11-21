@@ -35,6 +35,7 @@ namespace AK
         static const AkUniqueID POISON = 1413156513U;
         static const AkUniqueID QUITSOUND = 2147994845U;
         static const AkUniqueID SHOOT = 3038207054U;
+        static const AkUniqueID STOPMUSIC = 1917263390U;
         static const AkUniqueID TREEAMBIENT = 2209376599U;
         static const AkUniqueID VINECLIMB = 2480588368U;
         static const AkUniqueID WATERAMBIENT = 3416216822U;

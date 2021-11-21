@@ -102,7 +102,7 @@ public class HeroMove : MonoBehaviour
                     AkSoundEngine.PostEvent("Jump", gameObject);
 
                 }
-                
+
                 jumpControl = true;
 
 
@@ -193,9 +193,12 @@ public class HeroMove : MonoBehaviour
 
     public void Die()
     {
+        AkSoundEngine.PostEvent("StopMusic", gameObject);
+
         isDead = true;
         //FindObjectOfType<LevelManager>().RestartScene();
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

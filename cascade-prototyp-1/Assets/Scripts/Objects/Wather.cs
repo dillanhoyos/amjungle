@@ -14,6 +14,8 @@ public class Wather : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
+              AkSoundEngine.PostEvent("StopMusic", gameObject);
+            
            for (int i=0; i<= FindObjectOfType<LifeCount>().livesRemaining;i++ )
             {
                 FindObjectOfType<LifeCount>().LoseLife();

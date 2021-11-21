@@ -331,7 +331,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 56c77b2d0c9eab49ac5dd3c39792fbf2
     GuidInternal: 
-    m_lastTime: -8585641458794775808
+    m_lastTime: -8585641387164775808
     List:
     - name: Soundbank
       guid: 36a038a487f07a4aaf66047b6ad801c5
@@ -359,7 +359,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 18fa04101c414f46a1aaf883081c512b
     GuidInternal: 
-    m_lastTime: -8585641458794775808
+    m_lastTime: -8585641377394775808
     List:
     - name: BearcClosed
       guid: 5708c608c8a97049ad0b5f9342e9b722
@@ -735,6 +735,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.701633
       minDuration: 0.701633
+    - name: StopMusic
+      guid: eb50a7c084c3924b9a41c26027320dfa
+      id: 1917263390
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 18fa04101c414f46a1aaf883081c512b
+      - ElementName: StopMusic
+        ObjectType: 3
+        guid: eb50a7c084c3924b9a41c26027320dfa
+      Path: Events/Default Work Unit/StopMusic
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: treeambient
       guid: 6823911752a75b4daf64c39e3f5a729e
       id: 2209376599
