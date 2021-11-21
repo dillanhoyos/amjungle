@@ -8,6 +8,12 @@ public class BearTrap : MonoBehaviour
     {
         GetComponent<BoxCollider2D>().isTrigger = true;
     }
+    private void BearOpen(){
+        AkSoundEngine.PostEvent("BearcClosed", gameObject);
+    }
+    private void BearClosed(){
+        AkSoundEngine.PostEvent("Bearopen", gameObject);
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

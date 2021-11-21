@@ -7,7 +7,7 @@ public class WaterSounds : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-         //   AkSoundEngine.PostEvent("Waterambient", gameObject);
+         AkSoundEngine.PostEvent("Waterambient", gameObject);
     }
 
     

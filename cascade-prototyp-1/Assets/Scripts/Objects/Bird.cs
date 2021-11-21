@@ -16,6 +16,10 @@ public class Bird : MonoBehaviour
         GetComponent<BoxCollider2D>().isTrigger = true;
     }
 
+    private void flap(){
+        AkSoundEngine.PostEvent("flap", gameObject);
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Bullet")

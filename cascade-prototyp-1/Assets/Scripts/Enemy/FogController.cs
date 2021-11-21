@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class FogController : MonoBehaviour
 {
+ void Start(){
 
-    private void Start(){
-    //   AkSoundEngine.PostEvent("Poison", gameObject);
+      AkSoundEngine.PostEvent("Poison", gameObject);
+      
     }
+   
     private void Reset()
     {
         GetComponent<BoxCollider2D>().isTrigger = true;
@@ -17,6 +19,7 @@ public class FogController : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
+             AkSoundEngine.PostEvent("Maskattack", gameObject);
             Wait();
             if (FindObjectOfType<MaskController>().WasFirstTimeReleased == false)
             {

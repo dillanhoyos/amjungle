@@ -8,7 +8,7 @@ public class ItemsHold : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-             //   AkSoundEngine.PostEvent("FruitPickup", gameObject);
+              AkSoundEngine.PostEvent("FruitPickup", gameObject);
             FrCounter.Fruit += 1;
             Destroy(gameObject);
         }

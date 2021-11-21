@@ -20,7 +20,7 @@ public class EnemyAI : MonoBehaviour
     }
 
     private void Start(){
-        //   AkSoundEngine.PostEvent("Enemy_ambiance", gameObject);
+           AkSoundEngine.PostEvent("Ennemy_ambiance", gameObject);
     }
     void Init()
     {

@@ -10,12 +10,13 @@ public class Fire : MonoBehaviour
     }
 
 private void Start(){
-             //   AkSoundEngine.PostEvent("Fire", gameObject);
+               AkSoundEngine.PostEvent("Fire", gameObject);
 }
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.tag == "Player")
         {
+            AkSoundEngine.PostEvent("Fireball", gameObject);
           FindObjectOfType<LifeCount>().LoseLife();
         }
     }

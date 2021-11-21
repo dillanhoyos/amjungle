@@ -10,10 +10,11 @@ public class BirdController : MonoBehaviour
         if (fly)
         {
             MoveToNextPoint();
-             //   AkSoundEngine.PostEvent("Birdcall", gameObject);
+            
             
         }
     }
+  
 
 
     public List<Transform> points;

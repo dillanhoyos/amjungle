@@ -37,6 +37,7 @@ public class HeroMove : MonoBehaviour
         CheckingWall();
         MoveOnWall();
         WallJump();
+        
     }
     void FixedUpdate()
     {
@@ -77,24 +78,26 @@ public class HeroMove : MonoBehaviour
 
     void WalkSound(){
 
-       // AkSoundEngine.PostEvent("FootstepsFrog", gameObject);
+        AkSoundEngine.PostEvent("FootstepsFrog", gameObject);
 
     }
     void AirFlip(){
-        //AkSoundEngine.PostEvent("Flip", gameObject);
+        AkSoundEngine.PostEvent("Flip", gameObject);
     }
 
     void Jump() //Controllable hero jump with the possibility of a double jump
     {
         if (Input.GetKey(KeyCode.Space))
         {
+            
             if (onGround)
             {
                 anim.StopPlayback();
                 anim.Play("frog_jump");
                 jumpControl = true;
+                AkSoundEngine.PostEvent("Jump", gameObject);
 
-                 //   AkSoundEngine.PostEvent("Jump", gameObject);
+                   
             }
         }
         else { jumpControl = false; }
@@ -148,6 +151,7 @@ public class HeroMove : MonoBehaviour
     void CheckingLadder()
     {
         checkedLadder = Physics2D.OverlapPoint(LadderCheck.position, LadderMask);
+        
     }
 
     public float ladderSpead = 1.5f;
@@ -162,11 +166,18 @@ public class HeroMove : MonoBehaviour
     }
     void LadderUpDown()
     {
-        //AkSoundEngine.PostEvent("VineClimb", gameObject);
+        
         moveVector.y = Input.GetAxisRaw("Vertical");
     }
     //--------------------------------------------------
+    void Wallsound(){
 
+        AkSoundEngine.PostEvent("VineClimb", gameObject);
+    }
+
+    void hurtsound(){
+        AkSoundEngine.PostEvent("Hurt", gameObject);
+    }
     public bool isDead = false;
 
     public void Die()

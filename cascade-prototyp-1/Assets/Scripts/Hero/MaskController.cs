@@ -26,11 +26,13 @@ public class MaskController : MonoBehaviour
             {
                 anim.SetBool("MaskON", false);
                 WasFirstTimeReleased = false;
+               
             }
             else
             {
                 anim.SetBool("MaskON", true);
                 WasFirstTimeReleased = true;
+                 AkSoundEngine.PostEvent("Mask", gameObject);
             }
         }
         

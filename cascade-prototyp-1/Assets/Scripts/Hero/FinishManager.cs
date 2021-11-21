@@ -18,7 +18,7 @@ public class FinishManager : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            
+             AkSoundEngine.PostEvent("Bonus_Life", gameObject);
             UnLockLevel();
             SceneManager.LoadScene(1);
         }
